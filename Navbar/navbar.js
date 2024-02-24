@@ -82,25 +82,25 @@ async function displayUserProfile(rowIndex, userPassword, navbar) {
             // Check the value in column AB and show the corresponding Admin button(s)
             switch (additionalValue) {
                 case '0':
-                    addAdminButton('Search', '../Admin/admin0.html'); // Set the link for Admin 1
+                    addAdminButton('Search', './Admin/admin0.html'); // Set the link for Admin 1
                     addAdminButton('Udrita', 'https://kilt-bluefish.cyclic.app/'); // Set the link for Admin 1
                     break;
                 case '1':
-                    addAdminButton('Search', '../Admin/admin0.html'); // Set the link for Admin 1
-                    addAdminButton('Access', '../Admin/admin1.html'); // Set the link for Admin 1
+                    addAdminButton('Search', './Admin/admin0.html'); // Set the link for Admin 1
+                    addAdminButton('Access', './Admin/admin1.html'); // Set the link for Admin 1
                     addAdminButton('Udrita', 'https://kilt-bluefish.cyclic.app/'); // Set the link for Admin 1
                     break;
                 case '2':
-                    addAdminButton('Search', '../admin0.html'); // Set the link for Admin 1
-                    addAdminButton('Access Pro', '../Admin/admin2.html'); // Set the link for Admin 2
-                    addAdminButton('Access', '../Admin/admin1.html'); // Set the link for Admin 1
+                    addAdminButton('Search', './admin0.html'); // Set the link for Admin 1
+                    addAdminButton('Access Pro', './Admin/admin2.html'); // Set the link for Admin 2
+                    addAdminButton('Access', './Admin/admin1.html'); // Set the link for Admin 1
                     addAdminButton('Udrita', 'https://kilt-bluefish.cyclic.app/'); // Set the link for Admin 1
                     break;
                  case '3':
-                    addAdminButton('Search', '../Admin/admin0.html'); // Set the link for Admin 1
-                    addAdminButton('Access Pro', '../Admin/admin2.html'); // Set the link for Admin 2
-                    addAdminButton('Access', '../Admin/admin1.html'); // Set the link for Admin 1
-                    addAdminButton('Admin', '../Admin/admin3.html'); // Set the link for Admin 1
+                    addAdminButton('Search', './Admin/admin0.html'); // Set the link for Admin 1
+                    addAdminButton('Access Pro', './Admin/admin2.html'); // Set the link for Admin 2
+                    addAdminButton('Access', './Admin/admin1.html'); // Set the link for Admin 1
+                    addAdminButton('Admin', './Admin/admin3.html'); // Set the link for Admin 1
                     addAdminButton('Udrita', 'https://kilt-bluefish.cyclic.app/'); // Set the link for Admin 1
                     break;
                 // Add more cases as needed
@@ -109,7 +109,7 @@ async function displayUserProfile(rowIndex, userPassword, navbar) {
             }
             switch (roleValue) {
                 default:
-                    addAdminButton(roleValue,'../profession.html'); // Use roleValue as button name and link to profession.html
+                    addAdminButton(roleValue,'./profession.html'); // Use roleValue as button name and link to profession.html
                     break;
             }
             
